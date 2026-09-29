@@ -9,8 +9,8 @@ NM/mHJLTvrUOqT6czKjQnQYXkkQuSA6ZQQR3GRUQNPG0v5A7DNQj+PeG1wFovOSz
 LRWcpIgb1RvM6eMTtQWsC+yxN88fd98YGDX201Jh62mRo1wGWzYThEOIaK6mTwMl
 zkuHY821qiIC++TP6Z5MkULox9Ma3YlcQxwY8fV773WYus/gm202WDJP2mpvAn/F
 fwIDAQAB
------END PUBLIC KEY-----`；
-  
+-----END PUBLIC KEY-----`;
+
   return new Response(JSON.stringify({
     publicKey: publicKey
   }), {
@@ -21,6 +21,3 @@ fwIDAQAB
     }
   });
 }
-
-
-
